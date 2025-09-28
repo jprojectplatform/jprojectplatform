@@ -1,8 +1,8 @@
-name: Update GitHub Profile Repos
+name: Update Profile README
 
 on:
   schedule:
-    - cron: '0 0 * * *' # daily
+    - cron: '0 0 * * *'  # kila siku saa sita usiku
   workflow_dispatch:
 
 jobs:
@@ -10,32 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Generate Repository Cards
-        uses: tibdex/github-readme-repo-list-action@v2
-        id: repos
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          visibility: public
-          starred_first: true
-          layout: grid
-          per_row: 3
-          show_description: true
-          show_language: true
-          show_last_update: false
-          theme: card # this creates card-like boxes
-          
-      - name: Update README
-        run: |
-          echo "# Hi 👋, I'm JH4CK3R CEO OF J PROJECT PLATFORM" > README.md
-          echo -e "\nWelcome to J Project Platform GitHub profile! Here are all my repositories:\n" >> README.md
-          echo "## 🌟 Starred Repositories" >> README.md
-          echo "${{ steps.repos.outputs.starred }}" >> README.md
-          echo -e "\n## 📂 Other Repositories" >> README.md
-          echo "${{ steps.repos.outputs.other }}" >> README.md
+          node-version: 18
 
+      - name: Run script
+        run: node updateReadme.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Update repository cards" || echo "No changes to commit"
+          git commit -m "Update repo list" || echo "No changes"
           git push
