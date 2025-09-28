@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate Repository Lists
+      - name: Generate Repository Cards
         uses: tibdex/github-readme-repo-list-action@v2
         id: repos
         with:
@@ -23,8 +23,8 @@ jobs:
           show_description: true
           show_language: true
           show_last_update: false
-          theme: default # can also use "dark" for dark mode
-
+          theme: card # this creates card-like boxes
+          
       - name: Update README
         run: |
           echo "# Hi 👋, I'm JH4CK3R CEO OF J PROJECT PLATFORM" > README.md
@@ -37,5 +37,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Update repository list" || echo "No changes to commit"
+          git commit -m "Update repository cards" || echo "No changes to commit"
           git push
