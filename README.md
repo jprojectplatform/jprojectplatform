@@ -60,30 +60,7 @@ Hi 👋, I'm JH4CK3R CEO OF J PROJECT PLATFORM. Here are all my repositories:
 </div>
 </td>
 
-<!-- COLUMN LEFT -->
-<td style="padding: 8px;">
-<div style="border: 1px solid #d0d7de; border-radius: 6px; padding: 16px; background-color: #ffffff; margin-bottom: 16px;">
-    <div style="margin-bottom: 8px;">
-        <a href="https://github.com/jprojectplatform/REPO-NAME-1" style="font-size: 14px; font-weight: 700; color: #0969da; text-decoration: none;">
-            <strong> J-Anonymous </strong>
-        </a>
-    </div>
-    <p style="font-size: 12px; color: #656d76; margin: 0; line-height: 1.5;">
-        🔒 J-Anonymous - Ultimate Kali Linux Anonymity Toolkit Tired of being tracked? J-Anonymous transforms your Kali Linux into a stealth machine with one command. 
-    </p>
-</div>
-  <!-- Hii inakaa chini yake  -->
-<div style="border: 1px solid #d0d7de; border-radius: 6px; padding: 16px; background-color: #ffffff; margin-bottom: 16px;">
-    <div style="margin-bottom: 8px;">
-        <a href="https://github.com/jprojectplatform/REPO-NAME-3" style="font-size: 14px; font-weight: 700; color: #0969da; text-decoration: none;">
-            <strong> J-Wrapper </strong>
-        </a>
-    </div>
-    <p style="font-size: 12px; color: #656d76; margin: 0; line-height: 1.5;">
-        This tool will help you create a wrapper for your Python scripts. A wrapper lets you run your script from anywhere in the terminal using a short command. 
-    </p>
-</div>
-</td>
+
 
 <!-- Niongeze column juu -->
 </tr>
