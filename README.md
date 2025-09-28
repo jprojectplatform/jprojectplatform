@@ -1,7 +1,11 @@
-# Hi 👋, I'm JH4CK3R CEO OF J PROJECT PLATFORM 
+# Hi 👋, I'm JH4CK3R CEO OF J PROJECT PLATFORM
 
 Welcome to J Project Platform GitHub profile! Here are all my repositories:
 
-<!-- Repos List Starts -->
-<!-- AUTO-GENERATED-CONTENT:START (repos) -->
-<!-- AUTO-GENERATED-CONTENT:END -->
+## 🌟 Starred Repositories
+<!-- STARRED-REPOS:START -->
+<!-- STARRED-REPOS:END -->
+
+## 📂 Other Repositories
+<!-- OTHER-REPOS:START -->
+<!-- OTHER-REPOS:END -->
