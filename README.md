@@ -45,6 +45,17 @@ Hi 👋, I'm JH4CK3R CEO OF J PROJECT PLATFORM. Here are all my repositories:
     </p>
 </div>
 
+<div style="border: 1px solid #d0d7de; border-radius: 6px; padding: 16px; background-color: #ffffff; margin-bottom: 16px;">
+    <div style="margin-bottom: 8px;">
+        <a href="https://github.com/jprojectplatform/J-MASKED-LINK" style="font-size: 14px; font-weight: 700; color: #0969da; text-decoration: none;">
+            <strong> J-MASKED-LINK </strong>
+        </a>
+    </div>
+    <p style="font-size: 12px; color: #656d76; margin: 0; line-height: 1.5;">
+        J Masked Link is a professional URL masking tool that creates deceptive links for security testing. It transforms any target URL into legitimate-looking masked links using custom domains and keywords. 
+    </p>
+</div>
+
 <!-- Ongeza Juu kwa upande wa kushoto -->
 </td>
 
