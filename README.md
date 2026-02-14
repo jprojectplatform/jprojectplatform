@@ -29,7 +29,7 @@ Hi 👋, I'm JH4CK3R CEO OF J PROJECT PLATFORM. Here are all my repositories:
         </a>
     </div>
     <p style="font-size: 12px; color: #656d76; margin: 0; line-height: 1.5;">
-        This tool will help you create a wrapper for your Python scripts. A wrapper lets you run your script from anywhere in the terminal using a short command. 
+        This tool will help you create a wrapper for your scripts. A wrapper lets you run your script from anywhere in the terminal using a short command of your choice. 
     </p>
 </div>
 
